@@ -1,0 +1,6 @@
+{
+  "name": "Hazi Tour and Transport",
+  "description": "Premium luxury travel agency and private chauffeur transport operator in Sri Lanka. Custom multi-day tour itineraries, wildlife safaris, beach escapes, and direct WhatsApp booking.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Background circle (optional, let's keep it transparent with gorgeous gold double-circle) -->
+  <circle cx="200" cy="200" r="185" fill="#133E2B" />
+  <circle cx="200" cy="200" r="172" stroke="#BC9C4F" stroke-width="5" fill="none" />
+  <circle cx="200" cy="200" r="158" stroke="#BC9C4F" stroke-width="2.5" fill="none" />
+
+  <!-- Serif "H" -->
+  <path
+    d="M 155,100 L 195,100 L 195,108 L 187,108 L 187,150 L 213,150 L 213,108 L 205,108 L 205,100 L 245,100 L 245,108 L 237,108 L 237,212 L 245,212 L 245,220 L 205,220 L 205,212 L 213,212 L 213,165 L 187,165 L 187,212 L 195,212 L 195,220 L 155,220 L 155,212 L 163,212 L 163,108 L 155,108 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Waves / Swooshes -->
+  <path
+    d="M 125,150 C 130,195 185,215 228,198 C 215,208 175,208 140,185 C 125,175 118,162 125,150 Z"
+    fill="#FFFFFF"
+  />
+  <path
+    d="M 115,175 C 120,205 165,225 210,210 C 190,218 150,215 128,195 C 118,188 112,182 115,175 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Sea Turtle -->
+  <g transform="translate(245, 155) rotate(-10)">
+    <!-- Flippers & Head -->
+    <path d="M 32,-5 C 38,-10 42,-5 42,2 C 42,8 35,10 30,5 Z" fill="#FFFFFF" />
+    <path d="M 10,12 C 12,25 5,42 -10,40 C -8,30 2,20 8,10 Z" fill="#FFFFFF" />
+    <path d="M 15,-12 C 18,-25 12,-35 2,-32 C 3,-22 8,-15 12,-10 Z" fill="#FFFFFF" />
+    <path d="M -15,12 C -20,20 -28,18 -24,10 Z" fill="#FFFFFF" />
+    <path d="M -15,-12 C -20,-20 -28,-18 -24,-10 Z" fill="#FFFFFF" />
+    <path d="M -22,0 L -28,-2 L -26,2 Z" fill="#FFFFFF" />
+    <!-- Carapace -->
+    <ellipse cx="0" cy="0" rx="26" ry="19" fill="#FFFFFF" stroke="#133E2B" stroke-width="1.5" />
+    <path
+      d="M -20,0 L 20,0 M -12,-14 C -5,-8 5,-8 12,-14 M -12,14 C -5,8 5,8 12,14 M -12,-14 L -20,0 L -12,14 M 12,-14 L 20,0 L 12,14 M -5,-8 L -5,8 M 5,-8 L 5,8"
+      stroke="#133E2B"
+      stroke-width="1.2"
+      fill="none"
+    />
+  </g>
+</svg>
