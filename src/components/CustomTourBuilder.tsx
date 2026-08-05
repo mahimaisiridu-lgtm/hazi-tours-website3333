@@ -375,7 +375,7 @@ export default function CustomTourBuilder() {
     };
 
     // Format WhatsApp Message
-    const ownerNumber = "94773820251";
+    const ownerNumber = "94752890560";
     let formattedDestinationsList = selectedDestinations.map(d => `• ${d}`).join("\n");
 
     const messageLines = [
