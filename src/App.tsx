@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import MaintenancePopup from "./MaintenancePopup";
 import SplashScreen from "./components/SplashScreen";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
