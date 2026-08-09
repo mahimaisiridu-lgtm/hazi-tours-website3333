@@ -10,14 +10,14 @@ const MaintenancePopup = () => {
         </div>
 
         <h2 className="text-2xl font-bold mb-3">
-           Website Access Suspended
+          Website Access Suspended
         </h2>
 
         <p className="text-gray-600 mb-6">
-          This website is currently undergoing final setup and activation.
-          Please complete the pending payment to activate the full website service.
-
-           Thank you for your understanding.
+         This website is currently undergoing final setup and activation. 
+          Please complete the pending payment to activate the full website service. 
+          <br /><br />
+          Thank you for your understanding.
         </p>
 
         <button
