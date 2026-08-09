@@ -217,6 +217,8 @@ function AppMain() {
 
   return (
     <div className="min-h-screen bg-offwhite text-dark font-sans selection:bg-gold/30 selection:text-forest">
+      <MaintenancePopup />
+      
       <SEOHead
         currentView={currentView}
         eventTitle={SRI_LANKA_EVENTS.find((e) => e.id === selectedEventId)?.title}
