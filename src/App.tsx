@@ -213,6 +213,11 @@ function AppMain() {
       }
     }
   };
+       const App = () => {
+        const PAYMENT_PENDING = true;
+  if (PAYMENT_PENDING) {
+    return <MaintenancePopup />;
+  }
 
   return (
     <div className="min-h-screen bg-offwhite text-dark font-sans selection:bg-gold/30 selection:text-forest">
