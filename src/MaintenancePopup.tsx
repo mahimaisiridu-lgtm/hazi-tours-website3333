@@ -6,7 +6,7 @@ const MaintenancePopup = () => {
       <div className="bg-white rounded-3xl p-8 max-w-md text-center shadow-xl">
 
         <div className="text-5xl mb-4">
-          ⚠️
+          ⚠️Website Access Suspended
         </div>
 
         <h2 className="text-2xl font-bold mb-3">
